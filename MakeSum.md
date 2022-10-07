@@ -1,4 +1,4 @@
-# CPQuestion-1
+# Title: Make Sum
 
 # Problem Statement:
   You are given an array of n integers a1,a2,a3,a4,a5,...an and an integer x.Check Whether if it is possible to make x using numbers of the given array.Each Number from array can be used at max once.

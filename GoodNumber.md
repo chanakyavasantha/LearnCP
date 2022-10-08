@@ -15,29 +15,45 @@
   On the first line print the minimum sum of money Vinod needs to change the number. On the second line print the bike's new number. If there are several solutions, print the lexicographically minimum one
   
 # Sample Test Cases:
-  Test Case -1:<br>
-  Input:<br>
-  6 5 <br>
-  898196<br>
-  Output:<br>
-  4 <br>
+###  Test Case -1:<br>
+  Input:
+  ```
+  6 5 
+  898196
+  ```
+  Output:
+  ```
+  4
   888188
+  ```
   
-  Test Case-2:<br>
-  Input:<br>
-  3 2<br>
-  533<br>
-  Output:<br>
-  0<br>
+###  Test Case-2:<br>
+  Input:
+  ```
+  3 2
   533
+  ```
+  Output:
+  ```
+  0
+  533
+  ```
   
-  Test Case-3:<br>
-  Input:<br>
-  10 6<br>
-  0001112223<br>
-  Output:<br>
-  3<br>
-  0000002223<br>
+###  Test Case-3:<br>
+  Input:
+  ```
+  10 6
+  0001112223
+  ```
+  Output:
+  ```
+  3
+  0000002223
+  ```
+  
+# Submission Rules:
+  - Expected Time Complexity - O(n^2)
+  
   
   
          

@@ -12,7 +12,7 @@ Path to Follow:
   Print The Grid labelling each index by it's number according to the path that should be followed by Aoda.
  
 # Constraints:
-  $\leq$ n $\leq$ 10^5
+  1 $\leq$ n $\leq$ 10^5
 # Sample Test Case-1:
 - Input:<br>
   ```

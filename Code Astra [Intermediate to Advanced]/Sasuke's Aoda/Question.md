@@ -26,7 +26,9 @@ Path to Follow:
   ```
 - Explaination:<br>
   Print the path that to be followed by aoda,by filling respective cell of the n * n matrix.
+  ![image](https://s3.amazonaws.com/hr-assets/0/1665853371-69c838d12f-Screenshot2022-10-15223233.png)
   
   
- # Submission Rules:
+ # Hints/Concepts Involved:
+  - usage for vector of pairs
    

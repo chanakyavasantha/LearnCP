@@ -32,5 +32,5 @@ Path to Follow:
   
   
  # Hints/Concepts Involved:
-  - usage for vector of pairs
+  - usage of vector of pairs
    

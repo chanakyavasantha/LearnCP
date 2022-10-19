@@ -1,13 +1,13 @@
 # Title: Count Zero's
 
 # Problem Statement:
-  Given an integer **N**.Count the total Number of zeroes in the binary notations of numbers in range of 0 to 2n-1
+  Given an integer **N**.Count the total Number of zeroes in the binary notations of numbers in range of 0 to 2^n-1
   
   
 # Input:
   - The First line of input will contain an integer N.
 # Output:
-  - Print the total number of zeroes in the binary notations of numbers in range of 0 to 2n-1
+  - Print the total number of zeroes in the binary notations of numbers in range of 0 to 2^n-1
  
 # Constraints:
   1 $\leq$ n $\leq$ 10^5

@@ -33,7 +33,7 @@ bool CheckCycle(int i, vector<bool> &visited, vector<bool> &DfsVisited, vector<i
             return true;
         }
     }
-    visited[i] = false;
+    DfsVisited[i] = false;
     return false;
 }
 bool isCyclic(int V, vector<int> adj[]) {

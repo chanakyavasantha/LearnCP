@@ -1,15 +1,9 @@
 //DAA Assignment Q-2
 /*
- * 2. Consider a game called gold rush. Gold rush game has n pots, pots are arranged in a line, each containing
- * some gold coins. Assume that you and your friend are playing this game. Both of you can
- * see how many coins are there in each pot, and each player gets alternating turns in which the player
- * can pick a pot from either end of the line. The winner is the player who has the highest number of
- * coins at the end. Your objective is to “maximize” the number of coins, assuming your friend also plays
- * “optimally”. Assume that you got the opportunity to start the game.
- * Sample input: 5 7 3 4
- * Player A - 7 + 4 = 11
- * Player B - 5 + 3 = 8
- */
+consider a binary string, Two persons A and B are playing a game alternatively.Intially Each player have a score of zero. In each turn A can add the number at head or tail to his score and remove it from the string,
+Same goes to B, Now if Both the players play the game optimally, print YES if A wins the game(If A have high score).
+*/
+//Expected Time Complexity: O(n2)
 #include <bits/stdc++.h>
 using namespace std;
 int ans(int* a,int start,int end,int n,int** dp){
@@ -36,10 +30,16 @@ int ans(int* a,int start,int end,int n,int** dp){
 int main(){
     int n;
     cin>>n;
+    string s;
+    cin>>s;
     int* a = (int*) malloc(sizeof(int)*n);
     for(int i = 0;i<n;i++){
-        cin>>a[i];
+        a[i] = s[i]-48;
     }
+    for(int i = 0;i<n;i++){
+        cout<<a[i]<<" ";
+    }
+    cout<<endl;
     int** dp = (int**) malloc(sizeof(int*)*n);
     for(int i = 0;i<n;i++){
         dp[i] = (int*) malloc(sizeof(int)*n);
@@ -49,5 +49,13 @@ int main(){
             dp[i][j] = -1;
         }
     }
-    cout<<ans(a,0,n-1,n,dp)<<endl;
+    int A = ans(a,0,n-1,n,dp);
+    int B = ans(a,1,n-1,n,dp);
+    //cout<<A<<" "<<B<<endl;
+    if(A>B){
+        cout<<"YES"<<endl;
+    }
+    else{
+        cout<<"NO"<<endl;
+    }
 }

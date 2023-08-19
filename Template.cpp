@@ -47,7 +47,7 @@ float combinantions(long long n,long long i){
     return k;
 }
 void solve() {
-    // your code here
+    // your code here.
 }
 
 int main() {

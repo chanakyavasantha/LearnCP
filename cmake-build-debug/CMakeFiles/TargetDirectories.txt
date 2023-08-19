@@ -1,0 +1,3 @@
+/home/itachi/CLionProjects/LearnCP/cmake-build-debug/CMakeFiles/LearnCP.dir
+/home/itachi/CLionProjects/LearnCP/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/itachi/CLionProjects/LearnCP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
